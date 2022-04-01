@@ -917,13 +917,19 @@ $(document).ready(function () {
 <html>
 <head>
 <style>
+h1 {
+  color:  white;
+}
 body  {
+  color: black;
+   font-weight: bold;
   background-image: url("imagecover.png");
   background-color: #cccccc;
    background-repeat: no-repeat;
-  background-size: cover;
-   color: white;
-   font-weight: bold
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover
 }
 </style>
 </head>
@@ -931,7 +937,7 @@ body  {
 <h1> Welcome to E-lecture note of Ento 2101</h1>
 <br>
 <br>
-<p>Dear student,</p>
+<p><h3>Dear student,</h3></p>
 <p>Please enter the passcode given by your course teacher</p>
 <p>After entering passcode press 'Enter' in your keyboard or 'return' key in your mobile</p>
 <br>
