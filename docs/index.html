@@ -934,13 +934,16 @@ html{
  height:100%;
  min-height:100%;
  }
-body  {
+body, html {
   color: black;
    font-weight: bold;
   background-image: url("imagecover.png");
   background-color: #009e2d;
    background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 </style>
 </head>
@@ -951,7 +954,8 @@ body  {
 <br>
 <p><h4>Dear student,</h4></p>
 <p><h4>Please enter the passcode given by your course teacher</h4></p>
-<p><h4>After entering passcode press 'Enter' in your keyboard or 'return' key in your mobile</h4></p>
+<p><h4>After entering passcode press 'Enter' in your keyboard</h4></p> 
+<p><h4>or press 'return' key in your mobile</h4></p>
 <br>
 <br>
 <p><b>Enter password:</b> <input type="password" onkeyup="onPass(event)" id="pass"> <span id="status"></span>

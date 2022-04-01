@@ -14,7 +14,7 @@ cover-image: images/cover.PNG
  
 
 # Welcome {-} 
-<p style="text-align: center;"><a href="https://coavellayani.kau.in/people/krishnaja-u-dr"><img src="images/cover.png" alt="Hmsc 3201" /></a></p>  
+<p style="text-align: center;"><a href="https://coavellayani.kau.in/people/malini-nilamudeen-dr"><img src="images/cover.png" alt="Hmsc 3201" /></a></p>  
 Welcome to the book **LECTURE NOTES ON INSECT ECOLOGY & INTEGRATED PEST MANAGEMENT**.
 
 # Preface {-}  
@@ -31,6 +31,9 @@ Welcome to the book **LECTURE NOTES ON INSECT ECOLOGY & INTEGRATED PEST MANAGEME
 
 <p>This book is a collection of all lecture notes covering the syllabus of INSECT ECOLOGY & INTEGRATED PEST MANAGEMENT course in Third semester of B.Sc.(Hons.) Agriculture under Kerala Agricultural University </p>  
 
+```{r logo, echo=FALSE,out.width="30%", fig.align='center'}
+knitr::include_graphics(rep("docs/logo.png"))
+``` 
 
 
 
