@@ -290,7 +290,7 @@ Don't give definite number per unit area
 
 ## Terms in sampling
 ### Absolute sampling  
-To count all the pests occurring in a plot**
+To count all the pests occurring in a plot
 
 ### Relative sampling  
 To measure pest in terms of some values which
